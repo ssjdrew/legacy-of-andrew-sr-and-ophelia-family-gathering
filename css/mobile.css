@@ -1,0 +1,271 @@
+
+
+
+/* Navigation */
+
+/* Navbar */
+nav {
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
+
+#navbar {
+	display: flex;
+	flex-direction: column;
+	max-width: 768px;
+	background: var(--nav-bg-color);
+	color: var(--fg-color);
+	z-index: 2;
+	/* padding: 1.5rem; */
+	border-bottom: var(--fg-color) solid 1px;
+}
+
+#navbar h1 {
+	display: flex;
+	justify-content: center;
+	padding: 0.75rem;
+	font-size: 1.5rem;
+}
+
+
+#mobile_navbar2 {
+	z-index: 2;
+	/* padding: 1.5rem; */
+	display: block;
+	border-bottom: var(--fg-color) solid 1px;
+	background: var(--nav-bg-color);
+}
+
+#mobile_navbar2 .nav-options {
+	/* This makes the ordered list go horizontally */
+	/* Align items center. Halfway vertically between top and bottom of nav bar */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	visibility: visible;
+	background: var(--nav-bg-color);
+	/* border-top: var(--fg-color) solid 1px; */
+}
+
+#mobile_navbar2 .nav-options > li {
+	margin: 0.5rem 0;
+}
+
+#mobile_navbar2 .nav-options li a {
+	color: var(--fg-color);
+	padding: 0.25rem 0.5rem;
+	margin: 0 1rem;
+	text-decoration: none;
+}
+
+#mobile_navbar2 .nav-options li a:hover {
+	background: var(--fg-color);
+	color: var(--nav-bg-color);
+	border-radius: 5px;
+}
+
+#mobile_navbar2 .nav-options li a.current, 
+#mobile_navbar2 .nav-options li ul li a.current {
+	background: var(--nav-select-color);
+	color: var(--nav-bg-color);
+}
+
+#mobile_navbar2 .nav-options li a {
+	color: var(--fg-color);
+	padding: 0.12rem 0.25rem;
+	margin: 0 0.5rem;
+	font-size: 0.75rem;
+	text-decoration: none;
+}
+
+#navbar2 {
+	display: none;
+}
+
+
+
+
+
+
+
+/* Index */
+
+#showcase {
+	height: 15rem;
+}
+
+.l-heading {
+	font-size: 1.5rem;
+}
+
+.lead {
+	font-size: 1rem;
+}
+
+
+
+
+
+
+
+/* Schedule */
+			
+.schedule-table {
+	width: 20rem;
+	border-collapse: collapse;
+	border-color: white;
+	margin: 1rem auto;
+	color: white;
+}
+
+.schedule-table th {
+	border-width: 0.05rem;
+	font-size: 1.5rem;
+	padding: 0.25rem;
+	border-style: solid;
+	border-color: white;
+	color: var(--fg-color);
+	background-color: rgb(0, 64, 139);
+	background-color: var(--dark-color);
+}
+
+.day-data {
+	border-width: 0.05rem;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.25rem;
+	border-style: solid;
+	border-color: white;
+	color: var(--fg-color);
+	background-color: var(--dark-color);
+}
+
+.time-data {
+	border-width: 0.05rem;
+	width: 0.10rem;
+	font-size: 0.75rem;
+	padding: 0.25rem;
+	border-style: solid;
+	border-color: white var(--light-color) white white;
+	background-color: var(--dark-color);
+}
+
+.description-data {
+	border-width: 0.05rem;
+	width: 0.9rem;
+	font-size: 0.75rem;
+	padding: 0.25rem;
+	border-style: solid;
+	border-color: white white white var(--light-color);
+	background-color: var(--dark-color);
+}
+
+.faq-data {
+	border-width: 0.05rem;
+	width: 0.9rem;
+	font-size: 0.25rem;
+	padding: 0.25rem 0.25rem;
+	border-style: solid;
+	border-color: white white white white;
+	background-color: var(--dark-color);
+}
+
+
+
+
+
+
+
+/* Registration */
+
+/*
+#register-shirt-mobile {
+	 display: block; 
+}
+*/
+
+.p-2
+
+h1 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 0.85rem;
+}
+
+.register-button a {
+	font-size: 0.85rem;
+	font-weight: bold;
+}
+
+.p-2 {
+	display: none;
+}
+
+.reg-mobile {
+	display: block;
+}
+
+.hotel-img {
+	width: 220px; 
+	height: 120px;
+}
+
+
+
+
+/* Gallery */
+
+.name_galleries {
+	display: none;
+}
+
+.name-table-mobile {
+	border-collapse: collapse;
+	margin: 25px 25px 50px 50px;
+	display: block;
+}
+
+.name-table-mobile td {
+	width: 200px;
+	height: 200px;
+	border-width: 15px;
+	margin-left: 15px;
+}
+
+.name-table {
+	display: none;
+}
+
+/*
+.name-options li a.current, 
+.name-options li ul li a.current {
+	background: var(--nav-select-color);
+	color: var(--bg-color);
+}
+*/
+
+
+
+
+.contact-list {
+	display: none;
+}
+
+.contact-mobile {
+	display: block;
+}
+
+
+
+
+/* Footer */
+
+#main-footer .container {
+	max-width: 768px;
+	font-size: 0.75rem;
+}
